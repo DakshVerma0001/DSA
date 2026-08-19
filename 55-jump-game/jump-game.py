@@ -5,6 +5,7 @@ class Solution:
         for i in range(0, len(nums)):
             if i > max_index:
                 return False
-
-            max_index = max(max_index, i + nums[i])
+            
+            max_index = max(max_index,  i + nums[i] )
         return True
+        
